@@ -1,7 +1,0 @@
-{
-  "name": "EduPlay - Learning is a Game!",
-  "description": "A vibrant, gamified landing page for a 3D educational world for kids, featuring interactive elements and an AI-powered mascot assistant.",
-  "requestFramePermissions": [
-    "microphone"
-  ]
-}

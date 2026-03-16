@@ -1,8 +1,0 @@
-{
-  "name": "Gemini Dynamic Image Studio",
-  "description": "A high-performance landing page and studio for generating dynamic AI imagery using the latest Gemini models.",
-  "requestFramePermissions": [
-    "camera",
-    "microphone"
-  ]
-}
