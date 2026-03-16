@@ -15,7 +15,7 @@
 <br />
 
 ## Links
-* **Live Demo:** [Link to your site (Vercel/Netlify/GitHub Pages)]
+* **Live Demo:** [https://template-beauty-gold.vercel.app/]
 * **Source Code:** [Link to this repo]
 
 ## About The Project
