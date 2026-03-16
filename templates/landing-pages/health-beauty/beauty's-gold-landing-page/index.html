@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Beauty's Gold - L'Architecture du Soi</title>
+    <meta name="title" content="Beauty's Gold - L'Architecture du Soi">
+    <meta name="description"
+        content="Un institut d'exception où la géométrie rencontre le bien-être. Une approche structurée de la beauté avant-garde.">
+    <meta name="keywords" content="beauty institute, luxury spa, architectural beauty, avant-garde, igny, paris">
+    <meta name="author" content="Beauty's Gold">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://beautysgold.fr/">
+    <meta property="og:title" content="Beauty's Gold - L'Architecture du Soi">
+    <meta property="og:description"
+        content="Un institut d'exception où la géométrie rencontre le bien-être. Une approche structurée de la beauté avant-garde.">
+    <meta property="og:image" content="/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://beautysgold.fr/">
+    <meta property="twitter:title" content="Beauty's Gold - L'Architecture du Soi">
+    <meta property="twitter:description"
+        content="Un institut d'exception où la géométrie rencontre le bien-être. Une approche structurée de la beauté avant-garde.">
+    <meta property="twitter:image" content="/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#eec02b',
+                        'background-dark': '#111111',
+                        'accent-dark': '#221e10',
+                    },
+                    fontFamily: {
+                        sans: ['Space Grotesk', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif'],
+                    },
+                    letterSpacing: {
+                        'widest-xl': '0.2em',
+                        'widest-2xl': '0.3em',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #111111;
+            color: #ffffff;
+        }
+
+        .vertical-text {
+            writing-mode: vertical-rl;
+        }
+
+        .italic-display {
+            font-style: italic;
+        }
+
+        ::selection {
+            background-color: #eec02b;
+            color: #111111;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>

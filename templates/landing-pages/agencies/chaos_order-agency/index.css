@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .text-stroke-3 {
+        -webkit-text-stroke: 3px black;
+    }
+
+    .text-stroke-2 {
+        -webkit-text-stroke: 2px black;
+    }
+
+    /* Hide scrollbar for horizontal scroll areas */
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}
+
+body {
+    background-color: #f9f506;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>John Doe | Full-Stack Developer Portfolio</title>
+    <meta name="description" content="Creative Full-Stack Developer specializing in modern web technologies and retro-inspired designs." />
+    <meta name="keywords" content="developer, portfolio, full-stack, react, typescript, web design, terminal, cli" />
+    <meta name="author" content="MidoDev" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://midodev.fr/" />
+    <meta property="og:title" content="John Doe | Full-Stack Developer Portfolio" />
+    <meta property="og:description" content="Creative Full-Stack Developer specializing in modern web technologies and retro-inspired designs." />
+    <meta property="og:image" content="/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://midodev.fr/" />
+    <meta property="twitter:title" content="John Doe | Full-Stack Developer Portfolio" />
+    <meta property="twitter:description" content="Creative Full-Stack Developer specializing in modern web technologies and retro-inspired designs." />
+    <meta property="twitter:image" content="/og-image.png" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1" rel="stylesheet" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#36e27b', // Neon Green
+                        'primary-dim': 'rgba(54, 226, 123, 0.1)',
+                        'primary-glow': 'rgba(54, 226, 123, 0.4)',
+                        background: {
+                            light: '#f6f8f7',
+                            dark: '#112117',
+                        },
+                        terminal: {
+                            black: '#0c0e0d',
+                            header: '#1a241e',
+                            border: 'rgba(54, 226, 123, 0.2)',
+                        }
+                    },
+                    fontFamily: {
+                        display: ['Spline Sans', 'sans-serif'],
+                        mono: ['Fira Code', 'monospace'],
+                    },
+                    animation: {
+                        'blink-cursor': 'blink 1s step-end infinite',
+                        'spin-slow': 'spin 3s linear infinite',
+                    },
+                    keyframes: {
+                        blink: {
+                            '0%, 100%': { opacity: '1' },
+                            '50%': { opacity: '0' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #112117; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #29382f; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #36e27b; 
+        }
+        
+        .text-glow {
+            text-shadow: 0 0 10px rgba(54, 226, 123, 0.4);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-background-light dark:bg-background-dark text-white font-display min-h-screen overflow-x-hidden">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

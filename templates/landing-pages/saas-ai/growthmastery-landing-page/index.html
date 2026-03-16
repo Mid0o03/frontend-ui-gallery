@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GrowthMastery - Master Digital Marketing in 30 Days</title>
+    <meta name="description" content="Join 5,000+ students in the ultimate growth hacking course. Learn from industry experts and build a 6-figure career from scratch." />
+    <meta name="keywords" content="digital marketing, growth hacking, course, marketing masterclass, David Chen" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://growthmastery.com/" />
+    <meta property="og:title" content="GrowthMastery - Master Digital Marketing in 30 Days" />
+    <meta property="og:description" content="Join 5,000+ students in the ultimate growth hacking course. Learn from industry experts." />
+    <meta property="og:image" content="https://growthmastery.com/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://growthmastery.com/" />
+    <meta property="twitter:title" content="GrowthMastery - Master Digital Marketing in 30 Days" />
+    <meta property="twitter:description" content="Join 5,000+ students in the ultimate growth hacking course. Learn from industry experts." />
+    <meta property="twitter:image" content="https://growthmastery.com/twitter-image.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#3b82f6",
+              "accent": "#f97316",
+              "background-light": "#f6f8f6",
+              "background-dark": "#0f172a",
+              "card-dark": "#1e293b",
+            },
+            fontFamily: {
+              "display": ["Manrope", "sans-serif"],
+              "body": ["Noto Sans", "sans-serif"],
+            },
+            borderRadius: {
+              "lg": "2rem",
+              "xl": "3rem",
+            },
+            boxShadow: {
+              'glow': '0 0 20px rgba(59, 130, 246, 0.5)',
+              'glow-accent': '0 0 25px rgba(249, 115, 22, 0.6)',
+            },
+            animation: {
+              'sweep': 'sweep 0.3s ease-in-out',
+            },
+            keyframes: {
+              sweep: {
+                '0%': { opacity: '0', transform: 'translateY(-10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+    
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      /* Custom Accordion transition helper */
+      details > summary { list-style: none; }
+      details > summary::-webkit-details-marker { display: none; }
+      
+      details[open] summary ~ * {
+          animation: sweep .3s ease-in-out;
+      }
+
+      @keyframes sweep {
+          0%    {opacity: 0; transform: translateY(-10px)}
+          100%  {opacity: 1; transform: translateY(0)}
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white antialiased transition-colors duration-300">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

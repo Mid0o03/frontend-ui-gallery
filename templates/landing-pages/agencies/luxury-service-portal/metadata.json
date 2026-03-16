@@ -1,0 +1,8 @@
+{
+  "name": "Luxury Service Portal",
+  "description": "An exclusive, high-end landing page for elite concierge and logistics services with integrated AI consultation.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "jane-doe-portfolio-template",
+  "private": false,
+  "version": "1.0.0",
+  "description": "A premium, minimalist portfolio template for creative strategists and brand designers.",
+  "author": "Midodev <contact@midodev.fr>",
+  "license": "Commercial",
+  "keywords": [
+    "portfolio",
+    "template",
+    "creative-strategist",
+    "minimalist",
+    "react",
+    "vite",
+    "tailwind",
+    "premium"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react-dom": "^19.2.3",
+    "react": "^19.2.3",
+    "lucide-react": "^0.561.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

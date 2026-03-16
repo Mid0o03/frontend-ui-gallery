@@ -1,0 +1,7 @@
+{
+  "name": "Lumina Dynamic Landing",
+  "description": "A high-performance, AI-powered landing page featuring dynamic content generation and stunning visual galleries using the Gemini API.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

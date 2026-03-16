@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jane Doe | Creative Strategist Portfolio</title>
+    <meta name="description" content="Professional portfolio of Jane Doe, a Creative Strategist specializing in digital narratives and brand identities for the web3 era." />
+    <meta name="keywords" content="Creative Strategist, Portfolio, Web3, Branding, Digital Narrative, Jane Doe" />
+    <meta name="author" content="Jane Doe" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://midodev.fr/" />
+    <meta property="og:title" content="Jane Doe | Creative Strategist Portfolio" />
+    <meta property="og:description" content="Professional portfolio of Jane Doe, a Creative Strategist specializing in digital narratives and brand identities for the web3 era." />
+    <meta property="og:image" content="https://midodev.fr/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://midodev.fr/" />
+    <meta property="twitter:title" content="Jane Doe | Creative Strategist Portfolio" />
+    <meta property="twitter:description" content="Professional portfolio of Jane Doe, a Creative Strategist specializing in digital narratives and brand identities for the web3 era." />
+    <meta property="twitter:image" content="https://midodev.fr/og-image.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#13ec5b",
+              "background-light": "#f6f8f6",
+              "background-dark": "#102216",
+              "surface-dark": "#162e1e",
+              "border-color": "#23482f",
+            },
+            fontFamily: {
+              "display": ["Spline Sans", "sans-serif"],
+              "mono": ["Space Mono", "monospace"],
+            },
+            animation: {
+              marquee: 'marquee 20s linear infinite',
+            },
+            keyframes: {
+              marquee: {
+                '0%': { transform: 'translateX(0%)' },
+                '100%': { transform: 'translateX(-50%)' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+
+    <style>
+        /* Custom scrollbar for webkit to match the design */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #102216; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #23482f; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #13ec5b; 
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background-light dark:bg-background-dark text-gray-900 dark:text-white font-display selection:bg-primary selection:text-background-dark">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

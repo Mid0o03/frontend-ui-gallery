@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Art du Pain | Boulangerie Artisanale</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#b86614",
+                        "background-light": "#f8f7f6",
+                        "background-dark": "#211911",
+                        "kraft-paper": "#fdfbf7",
+                        "ink-dark": "#3e2723",
+                    },
+                    fontFamily: {
+                        "display": ["Newsreader", "serif"]
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: "Newsreader", serif;
+            background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDgvtSqJhCK7Q-sJP8Wvje1MaSjGF2cd49w4f5zRq0T6OrNjJhTxzu8zBP4qVtWyOlVpV55NVlf9-0uZmX_vY8cRzI5Q3Nny_kojUpLMm-VswACE11YxH5tkhhXONnlfAXny6XyeKjztgmlUgWmGa9Gz8v9xBm2CmtDx6TnUdmi6d5HhWKHWi2wItXZhiBGHlhOTRckacXuyi3q8RxA0qThNDUJDRfO_d1nl1keP2Vt3WIlYnmqcaLeyM_yqTCxG9hCEpZVhw3rXOav');
+        }
+        .grain-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 50;
+            opacity: 0.03;
+            background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBUPaSA_3mbNyHZRJyj0NVb881cXuzyX9rv-9T_ACGa2zQGZp7Lin8bd_5OBcjuvmz-8pBn3W_YvKGFx6o55meyMN-RaiuwNmoRTZbRL4c_aurUuB07_EBraZNOQ2B9PvafTa3bhV_n3ivYR3X_6XyJbKw8pFoGpljSS9BmCqTwkEX790ZMWWhwF3ZTEk0hKQx2uBtfZA9Tv8RtM2uZ2Am6lnfy4OECaAHg_ogpLdFAbA9Wb66JrVLl-zxl7jwvAsnBw2QDEavZIhkm');
+        }
+        .sepia-map {
+            filter: sepia(0.8) contrast(1.1) brightness(0.9);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-background-light text-ink-dark selection:bg-primary/30 antialiased">
+    <div id="root"></div>
+    <div class="grain-overlay"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

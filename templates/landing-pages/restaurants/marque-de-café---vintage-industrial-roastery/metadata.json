@@ -1,0 +1,8 @@
+{
+  "name": "Marque de Café - Vintage Industrial Roastery",
+  "description": "A high-end landing page for an artisanal coffee roastery with a vintage industrial aesthetic, featuring product galleries and a Gemini-powered brewing assistant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

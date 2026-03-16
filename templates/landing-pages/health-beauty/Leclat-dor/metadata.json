@@ -1,0 +1,7 @@
+{
+  "name": "L'Éclat d'Or Landing Page",
+  "description": "A high-end, luxury beauty salon landing page with a minimalist and sophisticated aesthetic.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

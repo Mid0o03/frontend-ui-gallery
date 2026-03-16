@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retro Vintage Store | Premium 90s Vaporwave Template</title>
+    <meta name="description" content="Authentic 90s Vintage Store E-commerce template with Vaporwave aesthetics. Unique Windows 95 inspired design, fully responsive, and easy to customize for your brand." />
+    <meta name="keywords" content="vintage store, retro e-commerce, vaporwave template, windows 95 design, 90s fashion, react template, mido dev" />
+    <meta name="author" content="MidoDev" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.vintage-threads-95.com/" />
+    <meta property="og:title" content="Retro Vintage Store | Premium 90s Vaporwave Template" />
+    <meta property="og:description" content="Authentic 90s Vintage Store E-commerce template with Vaporwave aesthetics. Unique Windows 95 inspired design." />
+    <meta property="og:image" content="/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="http://www.vintage-threads-95.com/" />
+    <meta property="twitter:title" content="Retro Vintage Store | Premium 90s Vaporwave Template" />
+    <meta property="twitter:description" content="Authentic 90s Vintage Store E-commerce template with Vaporwave aesthetics. Unique Windows 95 inspired design." />
+    <meta property="twitter:image" content="/og-image.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;700;800&family=VT323&display=swap" rel="stylesheet"/>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#30e87a",
+              "retro-gray": "#c0c0c0",
+              "retro-blue": "#000080",
+              "retro-dark": "#111814",
+              "vapor-pink": "#ff71ce",
+              "vapor-blue": "#01cdfe",
+            },
+            fontFamily: {
+              "display": ["Plus Jakarta Sans", "sans-serif"],
+              "mono-retro": ["'VT323'", "monospace"],
+            },
+            boxShadow: {
+              "win95": "inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px gray, inset 2px 2px #fff",
+              "win95-in": "inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px gray",
+            },
+            animation: {
+              marquee: 'marquee 15s linear infinite',
+            },
+            keyframes: {
+              marquee: {
+                '0%': { transform: 'translateX(100%)' },
+                '100%': { transform: 'translateX(-100%)' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #2b003b;
+        background-image: 
+            linear-gradient(rgba(43, 0, 59, 0.9), rgba(43, 0, 59, 0.9)),
+            linear-gradient(0deg, transparent 24%, rgba(255, 113, 206, .3) 25%, rgba(255, 113, 206, .3) 26%, transparent 27%, transparent 74%, rgba(255, 113, 206, .3) 75%, rgba(255, 113, 206, .3) 76%, transparent 77%, transparent), 
+            linear-gradient(90deg, transparent 24%, rgba(1, 205, 254, .3) 25%, rgba(1, 205, 254, .3) 26%, transparent 27%, transparent 74%, rgba(1, 205, 254, .3) 75%, rgba(1, 205, 254, .3) 76%, transparent 77%, transparent);
+        background-size: 100% 100%, 50px 50px, 50px 50px;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 16px;
+        background: #c0c0c0;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #c0c0c0;
+        box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px gray, inset 2px 2px #fff;
+      }
+      ::-webkit-scrollbar-button {
+        background: #c0c0c0;
+        display: block;
+        height: 16px;
+        width: 16px;
+        box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px gray, inset 2px 2px #fff;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="min-h-screen text-sm overflow-x-hidden font-display antialiased">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "HTML Image Insight Dashboard",
+  "description": "A sophisticated dashboard that extracts, analyzes, and manages dynamic image links from HTML source code using Gemini AI for semantic understanding and accessibility optimization.",
+  "requestFramePermissions": []
+}

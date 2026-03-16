@@ -1,0 +1,8 @@
+{
+  "name": "The Obsidian House",
+  "description": "A luxury architectural property landing page featuring minimalist design, dark aesthetics, and an AI-powered concierge for inquiries.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

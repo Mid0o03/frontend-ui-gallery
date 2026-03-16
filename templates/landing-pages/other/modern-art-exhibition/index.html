@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Art Exhibition | Premium Portfolio Template</title>
+    <meta name="description" content="A sleek, modern, and highly customizable portfolio template for art exhibitions and creative showcases." />
+    <meta name="keywords" content="art, exhibition, portfolio, modern, sleek, premium, template, showcase" />
+    <meta name="author" content="MidoDev" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://modern-art-exhibition.vercel.app/" />
+    <meta property="og:title" content="Modern Art Exhibition | Premium Portfolio Template" />
+    <meta property="og:description" content="A sleek, modern, and highly customizable portfolio template for art exhibitions and creative showcases." />
+    <meta property="og:image" content="/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://modern-art-exhibition.vercel.app/" />
+    <meta property="twitter:title" content="Modern Art Exhibition | Premium Portfolio Template" />
+    <meta property="twitter:description" content="A sleek, modern, and highly customizable portfolio template for art exhibitions and creative showcases." />
+    <meta property="twitter:image" content="/og-image.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#2bee79",
+              "swiss-black": "#050a07",
+              "swiss-line": "#234832",
+              "swiss-dark": "#102217",
+              "swiss-surface": "#0a140e"
+            },
+            fontFamily: {
+              sans: ["Spline Sans", "sans-serif"],
+            },
+            spacing: {
+              '128': '32rem',
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #050a07;
+        color: white;
+      }
+      .swiss-border-r {
+        border-right: 1px solid #234832;
+      }
+      .swiss-border-b {
+        border-bottom: 1px solid #234832;
+      }
+      .swiss-border-t {
+        border-top: 1px solid #234832;
+      }
+      .swiss-border-l {
+        border-left: 1px solid #234832;
+      }
+      /* Hide scrollbar for cleaner look if needed, though usually standard is fine */
+      ::-webkit-scrollbar {
+        width: 8px;
+        background: #050a07;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #234832; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #2bee79; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

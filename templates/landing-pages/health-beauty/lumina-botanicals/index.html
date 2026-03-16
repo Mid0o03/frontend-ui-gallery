@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumina Botanicals - Natural Skincare & Organic Beauty</title>
+    <meta name="description" content="Discover Lumina Botanicals, your destination for 100% organic, cruelty-free, and vegan skincare. Reveal your natural radiance with our botanical formulas." />
+    <meta name="keywords" content="organic skincare, vegan beauty, botanical facial oil, natural moisturizer, cruelty-free skincare, Lumina Botanicals" />
+    <meta name="author" content="Midodev" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lumina-botanicals.vercel.app/" />
+    <meta property="og:title" content="Lumina Botanicals - Natural Skincare & Organic Beauty" />
+    <meta property="og:description" content="Discover Lumina Botanicals, your destination for 100% organic, cruelty-free, and vegan skincare. Reveal your natural radiance with our botanical formulas." />
+    <meta property="og:image" content="https://lumina-botanicals.vercel.app/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://lumina-botanicals.vercel.app/" />
+    <meta property="twitter:title" content="Lumina Botanicals - Natural Skincare & Organic Beauty" />
+    <meta property="twitter:description" content="Discover Lumina Botanicals, your destination for 100% organic, cruelty-free, and vegan skincare. Reveal your natural radiance with our botanical formulas." />
+    <meta property="twitter:image" content="https://lumina-botanicals.vercel.app/og-image.jpg" />
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    
+    <!-- Theme Configuration -->
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#f9f506",
+              "secondary": "#E8F5E9",
+              "accent-text": "#181811",
+              "background-light": "#FAFAFA",
+              "background-dark": "#1a1a18",
+              "surface-light": "#ffffff",
+              "surface-dark": "#2a2a26",
+            },
+            fontFamily: {
+              "display": ["Spline Sans", "sans-serif"],
+              "body": ["Spline Sans", "sans-serif"]
+            },
+            borderRadius: {
+              "DEFAULT": "1rem", 
+              "lg": "1.25rem",
+              "xl": "2rem", 
+              "full": "9999px"
+            },
+            boxShadow: {
+              "soft": "0 10px 40px -10px rgba(0,0,0,0.05)",
+              "glow": "0 0 20px rgba(249, 245, 6, 0.4)"
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Spline Sans', sans-serif;
+      }
+      .glass-nav {
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(12px);
+      }
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background-light dark:bg-background-dark text-accent-text dark:text-white transition-colors duration-300">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

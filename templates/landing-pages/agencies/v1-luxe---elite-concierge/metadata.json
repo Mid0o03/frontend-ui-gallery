@@ -1,0 +1,7 @@
+{
+  "name": "V1 Luxe - Elite Concierge",
+  "description": "An ultra-luxury landing page for elite concierge and asset management services, featuring a sophisticated dark aesthetic and a Gemini-powered digital concierge.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

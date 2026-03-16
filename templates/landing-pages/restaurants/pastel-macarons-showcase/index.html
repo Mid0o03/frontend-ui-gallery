@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastel Macarons</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#e9638f',
+                        'powder-pink': '#fce4ec',
+                        'sky-blue': '#d1eefc',
+                        background: '#f8f6f6',
+                        dark: '#211116'
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        display: ['Plus Jakarta Sans', 'sans-serif']
+                    },
+                    letterSpacing: {
+                        'extra-wide': '0.3em',
+                        'ultra-wide': '0.5em'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #f8f6f6;
+            color: #171113;
+        }
+        .ornate-border {
+            border: 2px solid #e9638f;
+            outline: 8px solid #fce4ec;
+            outline-offset: -12px;
+        }
+        .symmetry-line {
+            height: 1px;
+            background: linear-gradient(90deg, transparent 0%, #e9638f 50%, transparent 100%);
+        }
+        .wes-shadow {
+            box-shadow: 0 4px 20px rgba(233, 99, 143, 0.1);
+        }
+        .macaron-card-hover {
+            transition: padding 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .macaron-card-hover:hover {
+            padding: 0.5rem;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="antialiased">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

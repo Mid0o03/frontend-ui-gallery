@@ -1,0 +1,7 @@
+{
+  "name": "VisionaryAI Landing Page",
+  "description": "A high-performance landing page for a dynamic AI image generation service, featuring real-time image creation powered by Gemini.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

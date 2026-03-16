@@ -1,0 +1,36 @@
+{
+  "name": "growthmastery-landing-page",
+  "version": "1.0.0",
+  "description": "Premium Digital Marketing Landing Page Template",
+  "author": "MidoDev <contact@midodev.fr>",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mid0o03/template-sell.git"
+  },
+  "keywords": [
+    "landing-page",
+    "react",
+    "vite",
+    "tailwind",
+    "marketing",
+    "course",
+    "template"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

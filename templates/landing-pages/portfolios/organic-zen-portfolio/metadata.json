@@ -1,0 +1,7 @@
+{
+  "name": "Organic Zen Portfolio",
+  "description": "A high-end, minimalist portfolio landing page for a creative studio focusing on intentional design and organic growth, featuring a built-in AI creative consultant.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matcha Moments | Premium Japanese Ceremonial Matcha</title>
+    <meta name="description" content="Discover the finest ceremonial grade matcha sourced directly from Uji, Japan. Elevate your daily ritual with Matcha Moments." />
+    <meta name="keywords" content="matcha, ceremonial matcha, japanese tea, uji matcha, green tea, healthy ritual, organic tea" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://matcha-moments.vercel.app/" />
+    <meta property="og:title" content="Matcha Moments | Premium Japanese Ceremonial Matcha" />
+    <meta property="og:description" content="Discover the finest ceremonial grade matcha sourced directly from Uji, Japan. Elevate your daily ritual with Matcha Moments." />
+    <meta property="og:image" content="https://matcha-moments.vercel.app/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://matcha-moments.vercel.app/" />
+    <meta property="twitter:title" content="Matcha Moments | Premium Japanese Ceremonial Matcha" />
+    <meta property="twitter:description" content="Discover the finest ceremonial grade matcha sourced directly from Uji, Japan. Elevate your daily ritual with Matcha Moments." />
+    <meta property="twitter:image" content="https://matcha-moments.vercel.app/og-image.jpg" />
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#4A6B4C",
+              "primary-dark": "#3A5B3D",
+              "primary-darker": "#2E5936",
+              "background-light": "#F9F9F7",
+              "background-dark": "#102218",
+              "accent-gold": "#C0B283",
+              secondary: "#A18F7C",
+            },
+            fontFamily: {
+              display: ["Plus Jakarta Sans", "sans-serif"],
+              serif: ["Playfair Display", "serif"],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .material-symbols-outlined.fill {
+        font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background-light text-slate-900 font-display antialiased">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

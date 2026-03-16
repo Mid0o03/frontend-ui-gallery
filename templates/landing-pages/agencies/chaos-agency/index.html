@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chaos Agency - Creative Digital Studio</title>
+    <meta name="description" content="A raw creative agency for the bold and the brave. We don't follow rules, we rewrite the code." />
+    <meta name="keywords" content="creative agency, web design, branding, digital strategy, chaos agency" />
+    <meta name="author" content="Midodev" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Chaos Agency - Creative Digital Studio" />
+    <meta property="og:description" content="A raw creative agency for the bold and the brave. We don't follow rules, we rewrite the code." />
+    <meta property="og:image" content="/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Chaos Agency - Creative Digital Studio" />
+    <meta property="twitter:description" content="A raw creative agency for the bold and the brave. We don't follow rules, we rewrite the code." />
+    <meta property="twitter:image" content="/og-image.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1" rel="stylesheet" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "neo-yellow": "#FFD700",
+              "neo-green": "#36e27b",
+              "neo-pink": "#FF0080",
+              "neo-black": "#000000",
+              "neo-white": "#ffffff",
+              "neo-offwhite": "#f6f8f7",
+            },
+            fontFamily: {
+              sans: ['"Spline Sans"', 'sans-serif'],
+            },
+            boxShadow: {
+              "neo": "4px 4px 0px 0px #000000",
+              "neo-lg": "8px 8px 0px 0px #000000",
+              "neo-hover": "2px 2px 0px 0px #000000",
+            },
+            borderWidth: {
+              "3": "3px",
+            },
+            animation: {
+              "marquee": "marquee 20s linear infinite",
+              "bounce-slow": "bounce 3s infinite",
+            },
+            keyframes: {
+              marquee: {
+                "0%": { transform: "translateX(0)" },
+                "100%": { transform: "translateX(-50%)" },
+              },
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Custom utility for text stroke */
+      .text-stroke-3 {
+        -webkit-text-stroke: 3px black;
+        color: transparent;
+      }
+      
+      /* Hide scrollbar for horizontal scrolling areas */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-neo-yellow text-neo-black font-sans selection:bg-neo-pink selection:text-white">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

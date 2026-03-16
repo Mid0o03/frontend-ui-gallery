@@ -1,0 +1,40 @@
+{
+  "name": "portfolioos",
+  "private": true,
+  "version": "1.0.0",
+  "description": "PortfolioOS - Premium Terminal-Inspired Portfolio Template for Developers.",
+  "author": "Midodev <contact@midodev.fr>",
+  "license": "Commercial",
+  "keywords": [
+    "portfolio",
+    "template",
+    "terminal",
+    "react",
+    "typescript",
+    "tailwind",
+    "developer",
+    "backend"
+  ],
+  "homepage": "https://midodev.fr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mid0o03/template-sell.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "lucide-react": "^0.561.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

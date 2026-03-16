@@ -1,0 +1,34 @@
+{
+  "name": "creative-director-portfolio",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Premium Creative Director portfolio template built with React, Vite, and Tailwind CSS.",
+  "author": "MidoDev <contact@midodev.fr>",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "portfolio",
+    "creative-director",
+    "template",
+    "react",
+    "vite",
+    "tailwind",
+    "minimalist",
+    "landing-page"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

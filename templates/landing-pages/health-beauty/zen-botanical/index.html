@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zen Botanical | Nature's Calm, Delivered.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary-leaf": "#0df259",
+                        "background-light": "#fcfaf7",
+                        "background-dark": "#102216",
+                        "matcha": "#608a6e",
+                        "petal": "#f4dada",
+                        "zen-black": "#111813"
+                    },
+                    fontFamily: {
+                        "serif": ["Newsreader", "serif"]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        body { font-family: 'Newsreader', serif; }
+        .watercolor-blob {
+            position: absolute;
+            pointer-events: none;
+            opacity: 0.15;
+            filter: blur(40px);
+            z-index: 0;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-background-light dark:bg-background-dark text-zen-black dark:text-gray-100 transition-colors duration-300 antialiased overflow-x-hidden">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

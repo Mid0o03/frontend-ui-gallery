@@ -1,0 +1,7 @@
+{
+  "name": "Bonsai Masterpiece",
+  "description": "A high-end Japanese Bonsai art landing page featuring care guides, gallery exploration, and an AI-powered assistant for miniature tree enthusiasts.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
