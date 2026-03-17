@@ -1,4 +1,6 @@
 # ELENA VANCE PORTFOLIO
+![Preview](../../../../assets/previews/elena-vance-portfolio.gif)
+
 
 <div align="center">
   <img src="demo.gif" width="100%" alt="Project Demo Banner" />

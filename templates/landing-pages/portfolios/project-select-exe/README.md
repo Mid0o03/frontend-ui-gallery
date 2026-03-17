@@ -1,4 +1,6 @@
 # PROJECT SELECT EXE   RETRO PORTFOLIO
+![Preview](../../../../assets/previews/project-select-exe.gif)
+
 
 <div align="center">
   <img src="demo.gif" width="100%" alt="Project Demo Banner" />

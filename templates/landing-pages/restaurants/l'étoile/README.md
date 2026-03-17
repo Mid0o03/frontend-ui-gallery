@@ -1,4 +1,6 @@
 # L'ÉTOILE   THE AUTUMN HARVEST
+![Preview](../../../../assets/previews/l-etoile.gif)
+
 
 <div align="center">
   <img src="demo.gif" width="100%" alt="Project Demo Banner" />

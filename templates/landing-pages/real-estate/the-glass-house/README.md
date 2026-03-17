@@ -1,4 +1,6 @@
 # THE GLASS HOUSE   LUXURY ESTATE
+![Preview](../../../../assets/previews/the-glass-house.gif)
+
 
 <div align="center">
   <img src="demo.gif" width="100%" alt="Project Demo Banner" />

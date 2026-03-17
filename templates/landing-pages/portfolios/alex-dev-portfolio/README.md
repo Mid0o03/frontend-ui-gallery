@@ -1,4 +1,6 @@
 # ALEX DEV PORTFOLIO
+![Preview](../../../../assets/previews/alex-dev-portfolio.gif)
+
 
 <div align="center">
   <img src="demo.gif" width="100%" alt="Project Demo Banner" />

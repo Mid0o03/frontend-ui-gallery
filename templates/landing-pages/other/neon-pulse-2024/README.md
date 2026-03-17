@@ -1,4 +1,6 @@
 # NEON PULSE 2024
+![Preview](../../../../assets/previews/neon-pulse.gif)
+
 
 <div align="center">
   <img src="demo.gif" width="100%" alt="Project Demo Banner" />

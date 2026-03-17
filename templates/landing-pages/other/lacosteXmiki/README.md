@@ -1,4 +1,6 @@
 # LACOSTEXMIKI
+![Preview](../../../../assets/previews/lacosteXmiki.gif)
+
 
 <div align="center">
   <img src="demo.gif" width="100%" alt="Project Demo Banner" />

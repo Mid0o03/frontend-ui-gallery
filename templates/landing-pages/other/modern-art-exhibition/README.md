@@ -1,4 +1,6 @@
 # MODERN ART EXHIBITION
+![Preview](../../../../assets/previews/modern-art.gif)
+
 
 <div align="center">
   <img src="demo.gif" width="100%" alt="Project Demo Banner" />

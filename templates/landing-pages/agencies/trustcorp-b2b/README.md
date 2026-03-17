@@ -1,4 +1,6 @@
 # TRUSTCORP B2B LANDING PAGE
+![Preview](../../../../assets/previews/trustcorp.gif)
+
 
 <div align="center">
   <img src="demo.gif" width="100%" alt="Project Demo Banner" />

@@ -1,4 +1,6 @@
 # TRUSTCORP   EXCELLENCE IN CORPORATE SOLUTIONS
+![Preview](../../../../assets/previews/trustcorp2.gif)
+
 
 <div align="center">
   <img src="demo.gif" width="100%" alt="Project Demo Banner" />

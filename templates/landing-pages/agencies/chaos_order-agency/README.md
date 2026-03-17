@@ -1,4 +1,6 @@
 # CHAOS_ORDER AGENCY
+![Preview](../../../../assets/previews/chaos_order.gif)
+
 
 <div align="center">
   <img src="demo.gif" width="100%" alt="Project Demo Banner" />

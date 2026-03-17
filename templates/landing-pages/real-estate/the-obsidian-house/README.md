@@ -1,4 +1,6 @@
 # THE OBSIDIAN HOUSE
+![Preview](../../../../assets/previews/the-obsidian-house.gif)
+
 
 <div align="center">
   <img src="demo.gif" width="100%" alt="Project Demo Banner" />
